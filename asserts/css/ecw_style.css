@@ -1,0 +1,32 @@
+/*Basic style for plugin*/
+div#order_review {
+    width: 100% !important;
+    float: none;
+}
+
+.woocommerce-checkout .select2-container--default .select2-selection--single{
+	box-sizing: content-box;
+}
+table.shop_table.woocommerce-checkout-review-order-table {
+    width: 100%;
+}
+.ecw_order_notes #order_comments_field label {
+    display: none;
+}
+.woocommerce-checkout .ecw_billing_details input.input-text, .woocommerce-checkout .ecw_billing_details select, .woocommerce-checkout .ecw_billing_details textarea {
+    width: 100%;
+    display: block;
+}
+.ecw_coupon_form p.form-row.form-row-last button, .ecw_coupon_form p.form-row.form-row-last input {
+    width: 100%;
+}
+.ecw_order_notes .woocommerce-additional-fields span.woocommerce-input-wrapper {
+    width: 100%;
+}
+.woocommerce-billing-fields h3 {
+    display: none;
+}
+table {
+    border: none !important;
+}
+
